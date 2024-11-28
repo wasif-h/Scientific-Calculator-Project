@@ -1,11 +1,7 @@
 
 #include <bits/stdc++.h>
+#include"BasicCalc.cpp"
 using namespace std;
-
-int addition(int a, int b)
-{
-    return a + b;
-}
 
 // <<<---------  main function   --------->>>
 int main()
@@ -37,6 +33,23 @@ int main()
     case 1:
         cout << "a + b = " << addition(a,b);
             break;
+
+    case 2:
+        cout << "a - b = " << subtraction(a,b);
+            break;
+
+    case 3:
+        cout << "a * b = " << multiplication(a,b);
+            break;
+
+    case 4:
+        if(b != 0)
+            cout << "a / b = " << divison(a,b);
+            
+        else
+            cout <<"Scientific Error!" << endl;
+
+        break;
 
     default:
         break;
