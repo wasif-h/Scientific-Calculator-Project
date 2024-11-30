@@ -1,6 +1,6 @@
 
 #include <bits/stdc++.h>
-#include"BasicCalc.cpp"
+#include"BasicCalc.h"
 using namespace std;
 
 // <<<---------  main function   --------->>>
