@@ -1,5 +1,4 @@
-#include<iostream>
-using namespace std;
+#pragma
 
 int addition(int a, int b)
 {
